@@ -595,7 +595,7 @@ class SmartTelegramBot:
             if free_check == 1:
                 # Free user - send with protection
                 reply_markup = InlineKeyboardMarkup([[
-                    InlineKeyboardButton("💎 Get Premium to Forward", url="https://t.me/kingofpatal")
+                    InlineKeyboardButton("💎 Get Premium to Forward", url="https://t.me/Aspiranthelper836")
                 ]])
                 await app.copy_message(target_chat_id, LOG_GROUP, result.id, protect_content=True, reply_markup=reply_markup)
             else:
@@ -919,7 +919,7 @@ class SmartTelegramBot:
             [Button.inline("Set Thumbnail", b'setthumb'), Button.inline("Remove Thumbnail", b'remthumb')],
             [Button.inline("PDF Watermark", b'pdfwt'), Button.inline("Video Watermark", b'watermark')],
             [Button.inline("Upload Method", b'uploadmethod')],
-            [Button.url("Report Issues", "https://t.me/team_spy_pro")]
+            [Button.url("Report Issues", "https://t.me/Aspiranthelper836")]
         ]
         
         message = (
